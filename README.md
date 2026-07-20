@@ -2,7 +2,7 @@
 
 A machine learning web application that predicts whether a breast mass is benign or malignant from 30 digitized cell-nucleus measurements, based on the Wisconsin Diagnostic Breast Cancer (WDBC) dataset. Built with a Logistic Regression model wrapped in an sklearn.Pipeline (with feature scaling), served through Flask and Gunicorn, and deployed as a Docker container.
 
-🔗 Live demo: [https://breast-cancer-deduction-app--atif79918.replit.app/predict]
+🔗 Live demo: https://breast-cancer-deduction-app--atif79918.replit.app/
 
 ⚠️ Disclaimer: This is an educational/portfolio project only. It is not a certified medical device and must not be used for real diagnostic decisions.
 
@@ -42,8 +42,7 @@ Frontend: HTML/CSS (Jinja2 templates)
 │   └── index.html       # Web form + results page
 └── static/
     └── style.css         # Styling
-🚀 Running Locally
-
+	
 📊 How It Works
 The user fills in 30 measurements via the web form (or uses the pre-filled sample).
 On submit, app.py validates each field and assembles the values into the exact feature order the model was trained on.
@@ -56,4 +55,4 @@ Add automated tests and CI/CD for deployment.
 Add authentication/logging for real-world usage tracking.
 👤 Author
 
-[Atif khan] 🔗 [ PORTFOLIO = https://atifkhan7portfolio.netlify.app/]
+Atif Khan 🔗 Portfolio: atifkhan7portfolio.netlify.app
